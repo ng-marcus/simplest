@@ -5,6 +5,8 @@
 version: 2
 jobs:
   build:
+    environment:
+      - NGBUILD: "oops"
     docker:
       # specify the version you desire here
        - image: circleci/ruby:2.4.1-node-browsers
