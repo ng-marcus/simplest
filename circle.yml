@@ -1,6 +1,7 @@
 machine:
   environment:
     simple: true
+    SO_SIMPLE: Apple_is_best
   ruby:
     version: 2.4.0
   test:
